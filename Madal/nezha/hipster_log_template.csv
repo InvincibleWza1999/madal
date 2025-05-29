@@ -1,0 +1,675 @@
+clusterID,template,size
+1,TraceID: <:TRACEID:> SpanID: <:SPANID:> Request complete,604069
+2,TraceID: <:TRACEID:> SpanID: <:SPANID:> Adding to cart complete,62554
+3,TraceID: <:TRACEID:> SpanID: <:SPANID:> Adding to cart started,64128
+4,TraceID: <:TRACEID:> SpanID: <:SPANID:> Request started,604136
+5,"TraceID: <:TRACEID:> SpanID: <:SPANID:> AddItemAsync called with userId=<:USERID:>, productId=<:PRODUCTID:>, quantity=<:NUM:>",62551
+6,TraceID: <:TRACEID:> SpanID: <:SPANID:> List Recommendations product ids=<:ITEM:>,412469
+7,TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations,413271
+8,TraceID: <:TRACEID:> SpanID: <:SPANID:> Query product with name and description <:*:>,3944533
+9,TraceID: <:TRACEID:> SpanID: <:SPANID:> List products end,479345
+10,TraceID: <:TRACEID:> SpanID: <:SPANID:> Parse catalog successfully,479458
+11,TraceID: <:TRACEID:> SpanID: <:SPANID:> get results: <:ITEM:>,4315118
+12,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start query product catalog,479457
+13,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start parse catalog,479457
+14,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start list products,479460
+15,TraceID: <:TRACEID:> SpanID: <:SPANID:> Serving product page complete,265769
+16,TraceID: <:TRACEID:> SpanID: <:SPANID:> Choose Ad complete,326635
+17,TraceID: <:TRACEID:> SpanID: <:SPANID:> Choose Ad started,331217
+18,TraceID: <:TRACEID:> SpanID: <:SPANID:> Serving product page started,281058
+19,TraceID: <:TRACEID:> SpanID: <:SPANID:> Get currency data successful,1725087
+20,TraceID: <:TRACEID:> SpanID: <:SPANID:> Conversion request successful,1245628
+21,TraceID: <:TRACEID:> SpanID: <:SPANID:> Handles decimal or fractional carrying,2491256
+22,TraceID: <:TRACEID:> SpanID: <:SPANID:> Getting currency data,1725087
+23,TraceID: <:TRACEID:> SpanID: <:SPANID:> Received conversion request,1245628
+24,TraceID: <:TRACEID:> SpanID: <:SPANID:> Getting supported currencies...,479459
+25,TraceID: <:TRACEID:> SpanID: <:SPANID:> GetCartAsync called with userId=<:USERID:>,481322
+26,<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO - TraceID: <:TRACEID:> SpanID: <:SPANID:> Get Ads by Category <:*:>,707200
+27,<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO - TraceID: <:TRACEID:> SpanID: <:SPANID:> Query items successfully.,416099
+28,<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO - TraceID: <:TRACEID:> SpanID: <:SPANID:> Received ad request (context words=<:ITEM:>,331107
+29,TraceID: <:TRACEID:> SpanID: <:SPANID:>[GetQuote] completed request,147770
+30,TraceID: <:TRACEID:> SpanID: <:SPANID:>[CreateQuoteFromCount] completed request,147997
+31,TraceID: <:TRACEID:> SpanID: <:SPANID:>[CreateQuoteFromFloat] completed request,147997
+32,TraceID: <:TRACEID:> SpanID: <:SPANID:>[CreateQuoteFromFloat] received request,147997
+33,TraceID: <:TRACEID:> SpanID: <:SPANID:>[QuoteByCountFloat] completed request,147997
+34,TraceID: <:TRACEID:> SpanID: <:SPANID:>[QuoteByCountFloat] received request,147997
+35,TraceID: <:TRACEID:> SpanID: <:SPANID:>[CreateQuoteFromCount] received request,147997
+36,TraceID: <:TRACEID:> SpanID: <:SPANID:>[GetQuote] received request,147998
+37,TraceID: <:TRACEID:> SpanID: <:SPANID:> View user cart complete,126083
+38,TraceID: <:TRACEID:> SpanID: <:SPANID:> View user cart start,127934
+39,TraceID: <:TRACEID:> SpanID: <:SPANID:> Setting currency complete,43380
+40,TraceID: <:TRACEID:> SpanID: <:SPANID:> Setting currency started,43380
+41,TraceID: <:TRACEID:> SpanID: <:SPANID:> Request home complete,63905
+42,TraceID: <:TRACEID:> SpanID: <:SPANID:> Request home started,65450
+43,<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO - TraceID: <:TRACEID:> SpanID: <:SPANID:> Constructe random Ads <:*:>,62515
+44,<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO - TraceID: <:TRACEID:> SpanID: <:SPANID:> No context provided.,14
+45,TraceID: <:TRACEID:> SpanID: <:SPANID:>[ShipOrder] completed request,20796
+46,TraceID: <:TRACEID:> SpanID: <:SPANID:>[ShipOrder] received request,20833
+47,TraceID: <:TRACEID:> SpanID: <:SPANID:> Transaction processed: visa ending<:ITEM:>,21241
+48,TraceID: <:TRACEID:> SpanID: <:SPANID:> PaymentService#Charge invoked with request<:ITEM:>,21241
+49,TraceID: <:TRACEID:> SpanID: <:SPANID:> Order placed complete,20313
+50,TraceID: <:TRACEID:> SpanID: <:SPANID:> Placing order started,22186
+51,TraceID: <:TRACEID:> SpanID: <:SPANID:> A request to send order confirmation email to someone@example.com has been received.,20832
+52,TraceID: <:TRACEID:> SpanID: <:SPANID:> Send order confirmation email to someone@example.com start.,20832
+53,TraceID: <:TRACEID:> SpanID: <:SPANID:> PlaceOrder user id<:ITEM:>,20835
+54,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Order confirmation email sent to ""someone@example.com""",20833
+55,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start send Order Confirmation to email someone@example.com,20833
+56,TraceID: <:TRACEID:> SpanID: <:SPANID:> Empty the cart of user <:USERID:> successfully,20833
+57,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start empty the cart of user <:USERID:>,20833
+58,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Ship Order to address street address:""<:NUM:> Amphitheatre Parkway"" city:""Mountain View"" state:""CA"" country:""United States"" zip code:<:NUM:> successfully",20833
+59,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Start ship Order to address street address:""<:NUM:> Amphitheatre Parkway"" city:""Mountain View"" state:""CA"" country:""United States"" zip code:<:NUM:>",20833
+60,TraceID: <:TRACEID:> SpanID: <:SPANID:> Payment went through (transaction id: <:*:>,20835
+61,TraceID: <:TRACEID:> SpanID: <:SPANID:> Charge successfully,20833
+62,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start charge card,21916
+63,TraceID: <:TRACEID:> SpanID: <:SPANID:> Prepare order of user <:USERID:> successfully,21918
+64,TraceID: <:TRACEID:> SpanID: <:SPANID:> Convert currency from currency code:<:ITEM:>,76737
+65,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start convert currency from currency code:<:ITEM:>,76737
+66,TraceID: <:TRACEID:> SpanID: <:SPANID:> Get shipping cost currency code:<:ITEM:>,21917
+67,TraceID: <:TRACEID:> SpanID: <:SPANID:> Quote shipping with items<:ITEM:>,21917
+68,TraceID: <:TRACEID:> SpanID: <:SPANID:> Query cost of products<:ITEM:>,21917
+69,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start query cost of products<:ITEM:>,22175
+70,TraceID: <:TRACEID:> SpanID: <:SPANID:> Get user <:USERID:> cart items:<:ITEM:>,21940
+71,TraceID: <:TRACEID:> SpanID: <:SPANID:> Query cart of user <:USERID:>,22176
+72,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start prepare order of user <:USERID:>,22177
+73,TraceID: <:TRACEID:> SpanID: <:SPANID:> Get OrderID <:USERID:>,22177
+74,TraceID: <:TRACEID:> SpanID: <:SPANID:> Start PlaceOrder user id<:ITEM:>,22177
+75,TraceID: <:TRACEID:> SpanID: <:SPANID:> EmptyCartAsync called with userId=<:USERID:>,20833
+76,frontend hipstershop.Frontend/Recv. start,176
+77,frontend hipstershop.Frontend/Recv. end,123
+78,frontend hipstershop.ProductCatalogService/GetProduct start,417
+79,frontend hipstershop.ProductCatalogService/GetProduct end,417
+80,frontend hipstershop.CurrencyService/GetSupportedCurrencies start,79
+81,frontend hipstershop.CurrencyService/GetSupportedCurrencies end,79
+82,frontend hipstershop.CartService/GetCart start,72
+83,frontend hipstershop.CartService/GetCart end,72
+84,frontend hipstershop.CurrencyService/Convert start,234
+85,frontend hipstershop.CurrencyService/Convert end,234
+86,frontend hipstershop.RecommendationService/ListRecommendations start,63
+87,frontend hipstershop.RecommendationService/ListRecommendations end,63
+88,frontend hipstershop.AdService/GetAds start,52
+89,frontend hipstershop.AdService/GetAds end,52
+90,productcatalogservice hipstershop.ProductCatalogService/GetProduct start,406
+91,productcatalogservice hipstershop.ProductCatalogService/GetProduct end,406
+92,productcatalogservice hipstershop.ProductCatalogService/ListProducts start,73
+93,productcatalogservice hipstershop.ProductCatalogService/ListProducts end,73
+94,productcatalogservice sql.conn.query start,476
+95,productcatalogservice sql.conn.query end,476
+96,productcatalogservice sql.rows start,476
+97,productcatalogservice sql.rows end,476
+98,currencyservice grpc.hipstershop.CurrencyService/GetSupportedCurrencies start,72
+99,currencyservice grpc.hipstershop.CurrencyService/GetSupportedCurrencies end,72
+100,currencyservice hipstershop.CurrencyService/GetCurrencyData start,299
+101,currencyservice hipstershop.CurrencyService/GetCurrencyData end,299
+102,cartservice hipstershop.CartService/GetCart start,75
+103,cartservice hipstershop.CartService/GetCart end,75
+104,currencyservice grpc.hipstershop.CurrencyService/Convert start,227
+105,currencyservice grpc.hipstershop.CurrencyService/Convert end,227
+106,currencyservice hipstershop.CurrencyService/Carry start,454
+107,currencyservice hipstershop.CurrencyService/Carry end,454
+108,recommendationservice /hipstershop.RecommendationService/ListRecommendations start,59
+109,recommendationservice /hipstershop.RecommendationService/ListRecommendations end,58
+110,recommendationservice /hipstershop.ProductCatalogService/ListProducts start,56
+111,recommendationservice /hipstershop.ProductCatalogService/ListProducts end,56
+112,productcatalogservice hipstershop.ProductCatalogService/ParseCatalog start,70
+113,productcatalogservice hipstershop.ProductCatalogService/ParseCatalog end,70
+114,productcatalogservice hipstershop.ProductCatalogService/ReadCatalog start,70
+115,productcatalogservice hipstershop.ProductCatalogService/ReadCatalog end,70
+116,adservice hipstershop.AdService/GetAds start,50
+117,adservice hipstershop.AdService/GetAds end,50
+118,adservice hipstershop.AdServiceImpl/getAds start,50
+119,adservice hipstershop.AdServiceImpl/getAds end,50
+120,adservice hipstershop.AdService/<:SPANID:> start,48
+121,adservice hipstershop.AdService/<:SPANID:> end,48
+122,adservice SELECT addatabase.aditems start,60
+123,adservice SELECT addatabase.aditems end,60
+124,frontend hipstershop.ShippingService/GetQuote start,18
+125,frontend hipstershop.ShippingService/GetQuote end,18
+126,shippingservice hipstershop.ShippingService/GetQuote start,21
+127,shippingservice hipstershop.ShippingService/GetQuote end,21
+128,shippingservice hipstershop.ShippingService/CreateQuoteFromCount start,20
+129,shippingservice hipstershop.ShippingService/CreateQuoteFromCount end,20
+130,shippingservice hipstershop.ShippingService/QuoteByCountFloat start,20
+131,shippingservice hipstershop.ShippingService/QuoteByCountFloat end,20
+132,shippingservice hipstershop.ShippingService/CreateQuoteFromFloat start,20
+133,shippingservice hipstershop.ShippingService/CreateQuoteFromFloat end,20
+134,frontend hipstershop.ProductCatalogService/ListProducts start,14
+135,frontend hipstershop.ProductCatalogService/ListProducts end,14
+136,adservice hipstershop.AdService/getRandomAds start,13
+137,adservice hipstershop.AdService/getRandomAds end,13
+138,"TraceID: <:TRACEID:>, SpanID: <:SPANID:> Request error",20593
+139,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to complete the order,1873
+140,frontend hipstershop.CheckoutService/PlaceOrder start,9
+141,frontend hipstershop.CheckoutService/PlaceOrder end,9
+142,checkoutservice hipstershop.CheckoutService/PlaceOrder start,9
+143,checkoutservice hipstershop.CheckoutService/PlaceOrder end,9
+144,checkoutservice hipstershop.CartService/GetCart start,8
+145,checkoutservice hipstershop.CartService/GetCart end,8
+146,checkoutservice hipstershop.ProductCatalogService/GetProduct start,18
+147,checkoutservice hipstershop.ProductCatalogService/GetProduct end,18
+148,checkoutservice hipstershop.ShippingService/GetQuote start,6
+149,checkoutservice hipstershop.ShippingService/GetQuote end,6
+150,checkoutservice hipstershop.PaymentService/Charge start,5
+151,checkoutservice hipstershop.PaymentService/Charge end,5
+152,checkoutservice hipstershop.CheckoutService/PrepareOrderItemsAndShippingQuoteFromCart start,8
+153,checkoutservice hipstershop.CheckoutService/PrepareOrderItemsAndShippingQuoteFromCart end,8
+154,checkoutservice hipstershop.CheckoutService/GetUserCart start,8
+155,checkoutservice hipstershop.CheckoutService/GetUserCart end,8
+156,checkoutservice hipstershop.CheckoutService/PrepOrderItems start,7
+157,checkoutservice hipstershop.CheckoutService/PrepOrderItems end,7
+158,checkoutservice hipstershop.CheckoutService/ConvertCurrency start,22
+159,checkoutservice hipstershop.CheckoutService/ConvertCurrency end,22
+160,checkoutservice hipstershop.CheckoutService/QuoteShipping start,5
+161,checkoutservice hipstershop.CheckoutService/QuoteShipping end,5
+162,checkoutservice hipstershop.CheckoutService/ChargeCard start,5
+163,checkoutservice hipstershop.CheckoutService/ChargeCard end,5
+164,TraceID: <:TRACEID:> SpanID: <:SPANID:> Could not charge the card: charge card error.,409
+165,paymentservice grpc.hipstershop.PaymentService/Charge start,4
+166,paymentservice grpc.hipstershop.PaymentService/Charge end,4
+167,frontend hipstershop.CartService/AddItem start,11
+168,frontend hipstershop.CartService/AddItem end,11
+169,cartservice hipstershop.CartService/AddItem start,9
+170,cartservice hipstershop.CartService/AddItem end,9
+171,checkoutservice hipstershop.ShippingService/ShipOrder start,4
+172,checkoutservice hipstershop.ShippingService/ShipOrder end,4
+173,checkoutservice hipstershop.CartService/EmptyCart start,4
+174,checkoutservice hipstershop.CartService/EmptyCart end,4
+175,checkoutservice hipstershop.EmailService/SendOrderConfirmation start,4
+176,checkoutservice hipstershop.EmailService/SendOrderConfirmation end,4
+177,checkoutservice hipstershop.CheckoutService/ShipOrder start,3
+178,checkoutservice hipstershop.CheckoutService/ShipOrder end,3
+179,checkoutservice hipstershop.CheckoutService/EmptyUserCart start,3
+180,checkoutservice hipstershop.CheckoutService/EmptyUserCart end,3
+181,checkoutservice hipstershop.CheckoutService/SendOrderConfirmation start,3
+182,checkoutservice hipstershop.CheckoutService/SendOrderConfirmation end,3
+183,cartservice hipstershop.CartService/EmptyCart start,3
+184,cartservice hipstershop.CartService/EmptyCart end,3
+185,shippingservice hipstershop.ShippingService/ShipOrder start,3
+186,shippingservice hipstershop.ShippingService/ShipOrder end,3
+187,emailservice /hipstershop.EmailService/SendOrderConfirmation start,3
+188,emailservice /hipstershop.EmailService/SendOrderConfirmation end,3
+189,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to connect payment service: connect error.,675
+190,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to retrieve ads,3039
+191,TraceID: <:TRACEID:> SpanID: <:SPANID:> Product id not specified,8039
+192,TraceID: <:TRACEID:> SpanID: <:SPANID:> Could not retrieve product,7251
+193,TraceID: <:TRACEID:> SpanID: <:SPANID:> failed to scan mysql query result: Query product error.,6155
+194,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to convert product,1574
+195,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to get product recommendations,1852
+196,TraceID: <:TRACEID:> SpanID: <:SPANID:> Get user <:USERID:> cart,237
+197,CpuUsageRate(%),25
+198,MemoryUsageRate(%),19
+199,NetworkP90(ms),25
+200,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to add to cart,1
+201,TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to do currency conversion for product <:PRODUCTID:>,1
+202,"{""log"":""Inject cpu successfully{\""timestamp\"": <:*:> \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> List Recommendations product ids=<:ITEM:>",834
+203,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-14T08:<:NUM:>:<:NUM:>.083578Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-14T08:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}",1
+204,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-14T08:<:NUM:>:<:NUM:>.680626Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-14T08:<:NUM:>:<:NUM:>.68091567Z""}",1
+205,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to prepare order: failed to get product #""<:PRODUCTID:>""",258
+206,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to get product #""<:PRODUCTID:>""",258
+207,TraceID: <:TRACEID:> SpanID: <:SPANID:> No product with ID <:PRODUCTID:>,4999
+208,<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO - TraceID: <:TRACEID:> SpanID: <:SPANID:> No context provided. Constructe random Ads start,63875
+209,"{""log"":""Inject cpu successfullyInject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.040061Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.04024563Z""}",9
+210,TraceID: <:TRACEID:> SpanID: <:SPANID:> Could not retrieve currencies,2
+211,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to prepare order: failed to convert price of ""<:PRODUCTID:>"" to CAD",1
+212,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to convert price of ""<:PRODUCTID:>"" to CAD",1
+213,"TraceID: <:TRACEID:> SpanID: <:SPANID:> Failed to convert currency: rpc error: code = Unavailable desc = upstream connect error or disconnect/reset before headers. reset reason: connection failure, transport failure reason: delayed connect error: <:NUM:>",1
+214,TraceID: <:TRACEID:> SpanID: <:SPANID:> Query product successfully,1436283
+215,ts-gateway-service /* start,6
+216,ts-gateway-service /* end,6
+217,ts-gateway-service FilteringWebHandler.handle start,6
+218,ts-gateway-service FilteringWebHandler.handle end,6
+219,ts-gateway-service HTTP POST start,5
+220,ts-gateway-service HTTP POST end,5
+221,ts-preserve-service /api/v1/preserveservice/preserve start,2
+222,ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]#<:NUM:>,5059
+223,ts-preserve-service /api/v1/preserveservice/preserve end,2
+224,ts-preserve-service PreserveController.preserve start,2
+225,p.s.PreserveServiceImpl#<:NUM:>,45372
+226,p.c.PreserveController#<:NUM:>,3146
+227,ts-preserve-service PreserveController.preserve end,2
+228,ts-preserve-service BasicErrorController.error start,1
+229,ts-preserve-service BasicErrorController.error end,1
+230,ts-preserve-service HTTP GET start,5
+231,ts-preserve-service HTTP GET end,5
+232,ts-preserve-service HTTP POST start,7
+233,ts-preserve-service HTTP POST end,7
+234,ts-security-service /api/v1/securityservice/securityConfigs/{accountId} start,3
+235,ts-security-service /api/v1/securityservice/securityConfigs/{accountId} end,3
+236,ts-security-service SecurityController.check start,3
+237,s.s.SecurityServiceImpl#<:NUM:>,16293
+238,s.c.SecurityController#<:NUM:>,5475
+239,ts-security-service SecurityController.check end,3
+240,ts-security-service HTTP GET start,6
+241,ts-security-service HTTP GET end,6
+242,ts-order-service /api/v1/orderservice/order/security/{checkDate}/{accountId} start,3
+243,ts-order-service /api/v1/orderservice/order/security/{checkDate}/{accountId} end,3
+244,ts-order-service /api/v1/orderservice/order/tickets start,5
+245,ts-order-service /api/v1/orderservice/order/tickets end,5
+246,ts-order-service OrderController.securityInfoCheck start,3
+247,o.c.OrderController#<:NUM:>,63809
+248,ts-order-service OrderController.securityInfoCheck end,3
+249,ts-order-service OrderController.getTicketListByDateAndTripId start,5
+250,o.s.<:SPANID:>#<:NUM:>,60867
+251,ts-order-service OrderController.getTicketListByDateAndTripId end,5
+252,ts-order-service OrderRepository.findByAccountId start,4
+253,ts-order-service OrderRepository.findByAccountId end,4
+254,ts-order-service OrderRepository.findByTravelDateAndTrainNumber start,5
+255,ts-order-service OrderRepository.findByTravelDateAndTrainNumber end,5
+256,ts-order-service SELECT Order start,9
+257,ts-order-service SELECT Order end,9
+258,ts-order-service SELECT ts.orders start,12
+259,ts-order-service SELECT ts.orders end,12
+260,ts-order-other-service /api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId} start,3
+261,ts-order-other-service /api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId} end,3
+262,ts-order-other-service OrderOtherController.securityInfoCheck start,3
+263,o.c.OrderOtherController#<:NUM:>,37745
+264,ts-order-other-service OrderOtherController.securityInfoCheck end,3
+265,ts-order-other-service OrderOtherRepository.findByAccountId start,4
+266,ts-order-other-service OrderOtherRepository.findByAccountId end,4
+267,ts-order-other-service SELECT Order start,7
+268,ts-order-other-service SELECT Order end,7
+269,ts-order-other-service SELECT ts.orders other start,10
+270,ts-order-other-service SELECT ts.orders other end,10
+271,ts-security-service SecurityRepository.findByName start,6
+272,ts-security-service SecurityRepository.findByName end,6
+273,ts-security-service SELECT SecurityConfig start,6
+274,ts-security-service SELECT SecurityConfig end,6
+275,ts-security-service SELECT ts.security config start,6
+276,ts-security-service SELECT ts.security config end,6
+277,ts-contacts-service /api/v1/contactservice/contacts/{id} start,3
+278,ts-contacts-service /api/v1/contactservice/contacts/{id} end,3
+279,ts-contacts-service ContactsController.getContactsByContactsId start,3
+280,c.s.ContactsServiceImpl#<:NUM:>,10842
+281,c.c.ContactsController#<:NUM:>,10842
+282,ts-contacts-service ContactsController.getContactsByContactsId end,3
+283,ts-contacts-service ContactsRepository.findById start,3
+284,ts-contacts-service ContactsRepository.findById end,3
+285,ts-contacts-service Session.find contacts.entity.Contacts start,3
+286,ts-contacts-service Session.find contacts.entity.Contacts end,3
+287,ts-contacts-service Transaction.commit start,3
+288,ts-contacts-service Transaction.commit end,3
+289,ts-contacts-service SELECT ts.contacts start,3
+290,ts-contacts-service SELECT ts.contacts end,3
+291,ts-travel-service /api/v1/travelservice/trip detail start,2
+292,ts-travel-service /api/v1/travelservice/trip detail end,2
+293,ts-travel-service <:SPANID:>.getTripAllDetailInfo start,2
+294,t.s.TravelServiceImpl#<:NUM:>,250387
+295,t.c.<:SPANID:>#<:NUM:>,16592
+296,ts-travel-service <:SPANID:>.getTripAllDetailInfo end,2
+297,ts-travel-service TripRepository.findByTripId start,4
+298,ts-travel-service TripRepository.findByTripId end,4
+299,ts-travel-service SELECT Trip start,4
+300,ts-travel-service SELECT Trip end,4
+301,ts-travel-service SELECT ts.trip start,4
+302,ts-travel-service SELECT ts.trip end,4
+303,ts-travel-service HTTP POST start,6
+304,ts-travel-service HTTP POST end,6
+305,ts-basic-service /api/v1/basicservice/basic/travel start,6
+306,ts-basic-service /api/v1/basicservice/basic/travel end,6
+307,ts-basic-service BasicController.queryForTravel start,6
+308,f.m.s.<:SPANID:>#<:NUM:>,245209
+309,f.m.c.BasicController#<:NUM:>,29857
+310,ts-basic-service BasicController.queryForTravel end,6
+311,ts-basic-service HTTP GET start,30
+312,ts-basic-service HTTP GET end,30
+313,ts-station-service /api/v1/stationservice/stations/id/{<:SPANID:>} start,12
+314,ts-station-service /api/v1/stationservice/stations/id/{<:SPANID:>} end,12
+315,ts-station-service StationController.queryForStationId start,12
+316,f.m.c.StationController#<:NUM:>,39589
+317,ts-station-service StationController.queryForStationId end,12
+318,ts-station-service StationRepository.findByName start,12
+319,ts-station-service StationRepository.findByName end,12
+320,ts-station-service SELECT Station start,12
+321,ts-station-service SELECT Station end,12
+322,ts-station-service SELECT ts.station start,13
+323,ts-station-service SELECT ts.station end,13
+324,ts-train-service /api/v1/trainservice/trains/byName/{name} start,6
+325,ts-train-service /api/v1/trainservice/trains/byName/{name} end,6
+326,ts-train-service TrainController.retrieveByName start,7
+327,t.c.TrainController#<:NUM:>,29335
+328,ts-train-service TrainController.retrieveByName end,7
+329,ts-train-service TrainTypeRepository.findByName start,6
+330,ts-train-service TrainTypeRepository.findByName end,6
+331,ts-train-service SELECT TrainType start,6
+332,ts-train-service SELECT TrainType end,6
+333,ts-train-service SELECT ts.train type start,7
+334,ts-train-service SELECT ts.train type end,7
+335,ts-route-service /api/v1/routeservice/routes/{routeId} start,6
+336,ts-route-service /api/v1/routeservice/routes/{routeId} end,6
+337,ts-route-service RouteController.queryById start,6
+338,r.c.RouteController#<:NUM:>,30949
+339,ts-route-service RouteController.queryById end,6
+340,ts-route-service RouteRepository.findById start,6
+341,ts-route-service RouteRepository.findById end,6
+342,ts-route-service Session.find route.entity.Route start,6
+343,ts-route-service Session.find route.entity.Route end,6
+344,ts-route-service Transaction.commit start,6
+345,ts-route-service Transaction.commit end,6
+346,ts-route-service SELECT ts.route start,7
+347,ts-route-service SELECT ts.route end,7
+348,ts-route-service SELECT ts.route stations start,11
+349,ts-route-service SELECT ts.route stations end,11
+350,ts-route-service SELECT ts.route distances start,11
+351,ts-route-service SELECT ts.route distances end,11
+352,ts-price-service /api/v1/priceservice/prices/{routeId}/{trainType} start,6
+353,ts-price-service /api/v1/priceservice/prices/{routeId}/{trainType} end,6
+354,ts-price-service PriceController.query start,7
+355,p.s.<:SPANID:>#<:NUM:>,9732
+356,p.c.PriceController#<:NUM:>,28555
+357,ts-price-service PriceController.query end,7
+358,ts-price-service PriceConfigRepository.findByRouteIdAndTrainType start,6
+359,ts-price-service PriceConfigRepository.findByRouteIdAndTrainType end,6
+360,ts-price-service SELECT PriceConfig start,6
+361,ts-price-service SELECT PriceConfig end,6
+362,ts-price-service SELECT ts.price config start,7
+363,ts-price-service SELECT ts.price config end,7
+364,ts-seat-service /api/v1/seatservice/seats/left tickets start,8
+365,ts-seat-service /api/v1/seatservice/seats/left tickets end,8
+366,ts-seat-service SeatController.getLeftTicketOfInterval start,8
+367,s.s.SeatServiceImpl#<:NUM:>,268766
+368,s.c.SeatController#<:NUM:>,68356
+369,ts-seat-service SeatController.getLeftTicketOfInterval end,8
+370,ts-seat-service HTTP POST start,10
+371,ts-seat-service HTTP POST end,10
+372,ts-seat-service HTTP GET start,8
+373,ts-seat-service HTTP GET end,8
+374,ts-config-service /api/v1/configservice/configs/{configName} start,6
+375,ts-config-service /api/v1/configservice/configs/{configName} end,6
+376,ts-config-service <:SPANID:>.retrieve start,6
+377,c.s.ConfigServiceImpl#<:NUM:>,63696
+378,c.c.<:SPANID:>#<:NUM:>,67598
+379,ts-config-service <:SPANID:>.retrieve end,6
+380,ts-config-service <:SPANID:>.findByName start,6
+381,ts-config-service <:SPANID:>.findByName end,6
+382,ts-config-service SELECT Config start,6
+383,ts-config-service SELECT Config end,6
+384,ts-config-service SELECT ts.config start,5
+385,ts-config-service SELECT ts.config end,5
+386,ts-inside-payment-service /api/v1/inside pay service/inside payment start,1
+387,ts-inside-payment-service /api/v1/inside pay service/inside payment end,1
+388,ts-inside-payment-service InsidePaymentController.pay start,1
+389,i.s.InsidePaymentServiceImpl#<:NUM:>,2977
+390,i.c.InsidePaymentController#<:NUM:>,5126
+391,ts-inside-payment-service InsidePaymentController.pay end,1
+392,ts-inside-payment-service HTTP GET start,2
+393,ts-inside-payment-service HTTP GET end,2
+394,ts-inside-payment-service HTTP POST start,1
+395,ts-inside-payment-service HTTP POST end,1
+396,ts-order-other-service /api/v1/orderOtherService/orderOther/{orderId} start,1
+397,ts-order-other-service /api/v1/orderOtherService/orderOther/{orderId} end,1
+398,ts-order-other-service /api/v1/orderOtherService/orderOther/status/{orderId}/{status} start,1
+399,ts-order-other-service /api/v1/orderOtherService/orderOther/status/{orderId}/{status} end,1
+400,ts-order-other-service OrderOtherController.getOrderById start,1
+401,o.s.OrderOtherServiceImpl#<:NUM:>,34107
+402,ts-order-other-service OrderOtherController.getOrderById end,1
+403,ts-order-other-service OrderOtherController.modifyOrder start,1
+404,ts-order-other-service OrderOtherController.modifyOrder end,1
+405,ts-order-other-service OrderOtherRepository.findById start,2
+406,ts-order-other-service OrderOtherRepository.findById end,2
+407,ts-order-other-service OrderOtherRepository.save start,2
+408,ts-order-other-service OrderOtherRepository.save end,2
+409,ts-order-other-service Session.find other.entity.Order start,2
+410,ts-order-other-service Session.find other.entity.Order end,2
+411,ts-order-other-service Transaction.commit start,4
+412,ts-order-other-service Transaction.commit end,4
+413,ts-order-other-service Session.merge other.entity.Order start,2
+414,ts-order-other-service Session.merge other.entity.Order end,2
+415,ts-order-other-service UPDATE ts.orders other start,1
+416,ts-order-other-service UPDATE ts.orders other end,1
+417,ts-inside-payment-service PaymentRepository.findByUserId start,1
+418,ts-inside-payment-service PaymentRepository.findByUserId end,1
+419,ts-inside-payment-service AddMoneyRepository.findByUserId start,2
+420,ts-inside-payment-service AddMoneyRepository.findByUserId end,2
+421,ts-inside-payment-service PaymentRepository.save start,1
+422,ts-inside-payment-service PaymentRepository.save end,1
+423,ts-inside-payment-service SELECT Payment start,1
+424,ts-inside-payment-service SELECT Payment end,1
+425,ts-inside-payment-service SELECT Money start,2
+426,ts-inside-payment-service SELECT Money end,2
+427,ts-inside-payment-service Session.persist inside payment.entity.Payment start,1
+428,ts-inside-payment-service Session.persist inside payment.entity.Payment end,1
+429,ts-inside-payment-service Transaction.commit start,2
+430,ts-inside-payment-service Transaction.commit end,2
+431,ts-inside-payment-service SELECT ts.inside payment start,1
+432,ts-inside-payment-service SELECT ts.inside payment end,1
+433,ts-inside-payment-service SELECT ts.inside money start,2
+434,ts-inside-payment-service SELECT ts.inside money end,2
+435,ts-inside-payment-service INSERT ts.inside payment start,1
+436,ts-inside-payment-service INSERT ts.inside payment end,1
+437,ts-payment-service /api/v1/paymentservice/payment start,1
+438,ts-payment-service /api/v1/paymentservice/payment end,1
+439,ts-payment-service PaymentController.pay start,1
+440,c.t.c.PaymentController#<:NUM:>,2311
+441,ts-payment-service PaymentController.pay end,1
+442,ts-payment-service PaymentRepository.findByOrderId start,1
+443,ts-payment-service PaymentRepository.findByOrderId end,1
+444,ts-payment-service PaymentRepository.save start,1
+445,ts-payment-service PaymentRepository.save end,1
+446,ts-payment-service SELECT Payment start,1
+447,ts-payment-service SELECT Payment end,1
+448,ts-payment-service Session.merge com.trainticket.entity.Payment start,1
+449,ts-payment-service Session.merge com.trainticket.entity.Payment end,1
+450,ts-payment-service Transaction.commit start,1
+451,ts-payment-service Transaction.commit end,1
+452,ts-payment-service SELECT ts.payment start,2
+453,ts-payment-service SELECT ts.payment end,2
+454,ts-payment-service INSERT ts.payment start,1
+455,ts-payment-service INSERT ts.payment end,1
+456,"{""log"":""Inject cpu successfully{\""timestamp\"": <:*:> \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-23T15:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}",229
+457,"{""log"":""Inject cpu successfully{\""timestamp\"": <:*:> \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}",432
+458,"{""log"":""Inject cpu successfullyInject cpu successfully{\""timestamp\"": <:*:> \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> List Recommendations product ids=<:ITEM:>",86
+459,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.654801Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.65499791Z""}",8
+460,"{""log"":""Inject cpu successfullyInject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.540838Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}",8
+461,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.540111Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.54026801Z""}",8
+462,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.340490Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.34064974Z""}",8
+463,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.845088Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.84525739Z""}",8
+464,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.140843Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.14100109Z""}",8
+465,"{""log"":""Inject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.440510Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-22T07:<:NUM:>:<:NUM:>.44068485Z""}",8
+466,"{""log"":""Inject cpu successfullyInject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-23T15:<:NUM:>:<:NUM:>.240007Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-23T15:<:NUM:>:<:NUM:>.24016991Z""}",6
+467,"{""log"":""Inject cpu successfullyInject cpu successfully{\""timestamp\"": \""<:NUM:>-<:NUM:>-23T15:<:NUM:>:<:NUM:>.551299Z\"", \""severity\"": \""INFO\"", \""name\"": \""recommendationservice-server\"", \""message\"": \""TraceID: <:TRACEID:> SpanID: <:SPANID:> Query Recommendations\""}\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-23T15:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}",6
+468,p.s.PreserveOtherServiceImpl#<:NUM:>,34415
+469,p.c.PreserveOtherController#<:NUM:>,2353
+470,v.c.VerifyCodeController#<:NUM:>,6894
+471,v.s.i.VerifyCodeServiceImpl#<:NUM:>,7080
+472,a.s.i.<:SPANID:>#<:NUM:>,3540
+473,a.s.UserDetailsServiceImpl#<:NUM:>,3540
+474,a.c.UserController#<:NUM:>,3600
+475,t.c.Travel2Controller#<:NUM:>,12458
+476,u.c.UserController#<:NUM:>,5299
+477,e.s.ExecuteServiceImpl#<:NUM:>,7800
+478,e.c.ExecuteControlller#<:NUM:>,4146
+479,ERROR e.s.ExecuteServiceImpl#<:NUM:>,2070
+480,c.s.CancelServiceImpl#<:NUM:>,22163
+481,a.s.AssuranceServiceImpl#<:NUM:>,2143
+482,a.c.AssuranceController#<:NUM:>,2143
+483,t.c.TrainFoodController#<:NUM:>,2718
+484,f.c.StationFoodController#<:NUM:>,2634
+485,ERROR f.s.FoodServiceImpl#<:NUM:>,2634
+486,f.s.FoodServiceImpl#<:NUM:>,11894
+487,f.c.FoodController#<:NUM:>,4627
+488,f.mq.RabbitSend#<:NUM:>,1831
+489,d.m.RabbitReceive#<:NUM:>,5493
+490,o.s.b.a.a.m.OnlyOnceLoggingDenyMeterFilter#<:NUM:>,12
+491,"{""log"":""<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO u.c.UserController#<:NUM:> TraceID: <:TRACEID:> SpanID: <:SPANID:>[getUserByUserId][Get user by user id][UserId: <:USERID:>]\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-29T10:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}ulate distance][calculate time：<:NUM:> time: Sat May <:NUM:> <:NUM:>:<:NUM:>:<:NUM:> CST <:NUM:>]\n""""",6
+492,"{""log"":""<:NUM:>:<:NUM:>:<:NUM:>.<:NUM:> INFO u.c.UserController#<:NUM:> TraceID: <:TRACEID:> SpanID: <:SPANID:>[getUserByUserId][Get user by user id][UserId: <:USERID:>]\n"",""stream"":""stdout"",""time"":""<:NUM:>-<:NUM:>-29T10:<:NUM:>:<:NUM:>.<:PRODUCTID:>""}:""""<:NUM:>-<:NUM:>-29T10:<:NUM:>:<:NUM:>.<:PRODUCTID:>""""}""",6
+493,ts-travel2-service /api/v1/travel2service/trips/left start,1
+494,ts-travel2-service /api/v1/travel2service/trips/left end,1
+495,ts-travel2-service Travel2Controller.queryInfo start,1
+496,ts-travel2-service Travel2Controller.queryInfo end,1
+497,ts-travel2-service TripRepository.findAll start,1
+498,ts-travel2-service TripRepository.findAll end,1
+499,ts-travel2-service SELECT Trip start,3
+500,ts-travel2-service SELECT Trip end,3
+501,ts-travel2-service Transaction.commit start,1
+502,ts-travel2-service Transaction.commit end,1
+503,ts-travel2-service SELECT ts.trip2 start,3
+504,ts-travel2-service SELECT ts.trip2 end,3
+505,ts-travel2-service HTTP POST start,6
+506,ts-travel2-service HTTP POST end,6
+507,ts-basic-service /api/v1/basicservice/basic/travels start,1
+508,ts-basic-service /api/v1/basicservice/basic/travels end,1
+509,ts-basic-service BasicController.queryForTravels start,1
+510,ts-basic-service BasicController.queryForTravels end,1
+511,ts-basic-service HTTP POST start,4
+512,ts-basic-service HTTP POST end,4
+513,ts-station-service /api/v1/stationservice/stations/idlist start,1
+514,ts-station-service /api/v1/stationservice/stations/idlist end,1
+515,ts-station-service StationController.queryForIdBatch start,1
+516,ts-station-service StationController.queryForIdBatch end,1
+517,ts-station-service StationRepository.findByNames start,1
+518,ts-station-service StationRepository.findByNames end,1
+519,ts-station-service SELECT station start,1
+520,ts-station-service SELECT station end,1
+521,ts-train-service /api/v1/trainservice/trains/byNames start,1
+522,ts-train-service /api/v1/trainservice/trains/byNames end,1
+523,ts-train-service TrainTypeRepository.findByNames start,1
+524,ts-train-service TrainTypeRepository.findByNames end,1
+525,ts-train-service SELECT train type start,1
+526,ts-train-service SELECT train type end,1
+527,ts-route-service /api/v1/routeservice/routes/byIds/ start,1
+528,ts-route-service /api/v1/routeservice/routes/byIds/ end,1
+529,ts-route-service RouteController.queryByIds start,1
+530,ts-route-service RouteController.queryByIds end,1
+531,ts-route-service RouteRepository.findByIds start,1
+532,ts-route-service RouteRepository.findByIds end,1
+533,ts-route-service SELECT route start,1
+534,ts-route-service SELECT route end,1
+535,ts-price-service /api/v1/priceservice/prices/byRouteIdsAndTrainTypes start,1
+536,ts-price-service /api/v1/priceservice/prices/byRouteIdsAndTrainTypes end,1
+537,ts-price-service PriceConfigRepository.findByRouteIdsAndTrainTypes start,1
+538,ts-price-service PriceConfigRepository.findByRouteIdsAndTrainTypes end,1
+539,ts-price-service SELECT price config start,1
+540,ts-price-service SELECT price config end,1
+541,ts-order-other-service /api/v1/orderOtherService/orderOther/tickets start,5
+542,ts-order-other-service /api/v1/orderOtherService/orderOther/tickets end,5
+543,ts-order-other-service OrderOtherController.getTicketListByDateAndTripId start,5
+544,ts-order-other-service OrderOtherController.getTicketListByDateAndTripId end,5
+545,ts-order-other-service OrderOtherRepository.findByTravelDateAndTrainNumber start,4
+546,ts-order-other-service OrderOtherRepository.findByTravelDateAndTrainNumber end,4
+547,ts-order-service /api/v1/orderservice/order start,2
+548,ts-order-service /api/v1/orderservice/order end,2
+549,ts-order-service OrderController.createNewOrder start,1
+550,ts-order-service OrderController.createNewOrder end,1
+551,ts-order-service OrderRepository.save start,2
+552,ts-order-service OrderRepository.save end,2
+553,ts-order-service Session.merge order.entity.Order start,2
+554,ts-order-service Session.merge order.entity.Order end,2
+555,ts-order-service Transaction.commit start,4
+556,ts-order-service Transaction.commit end,4
+557,ts-order-service INSERT ts.orders start,1
+558,ts-order-service INSERT ts.orders end,1
+559,ts-seat-service /api/v1/seatservice/seats start,2
+560,ts-seat-service /api/v1/seatservice/seats end,2
+561,ts-seat-service SeatController.create start,2
+562,ts-seat-service SeatController.create end,2
+563,ts-food-service /api/v1/foodservice/orders start,1
+564,ts-food-service /api/v1/foodservice/orders end,1
+565,ts-food-service FoodController.createFoodOrder start,1
+566,ts-food-service FoodController.createFoodOrder end,1
+567,ts-food-service FoodOrderRepository.findByOrderId start,1
+568,ts-food-service FoodOrderRepository.findByOrderId end,1
+569,ts-food-service FoodOrderRepository.save start,1
+570,ts-food-service FoodOrderRepository.save end,1
+571,ts-food-service SELECT FoodOrder start,1
+572,ts-food-service SELECT FoodOrder end,1
+573,ts-food-service Session.merge foodsearch.entity.FoodOrder start,1
+574,ts-food-service Session.merge foodsearch.entity.FoodOrder end,1
+575,ts-food-service Transaction.commit start,1
+576,ts-food-service Transaction.commit end,1
+577,ts-food-service SELECT ts.food order start,2
+578,ts-food-service SELECT ts.food order end,2
+579,ts-food-service INSERT ts.food order start,1
+580,ts-food-service INSERT ts.food order end,1
+581,ts-food-service <default> send start,1
+582,ts-food-service <default> send end,1
+583,ts-delivery-service food delivery process start,2
+584,ts-delivery-service food delivery process end,2
+585,ts-delivery-service DeliveryRepository.save start,1
+586,ts-delivery-service DeliveryRepository.save end,1
+587,ts-delivery-service Session.merge delivery.entity.Delivery start,1
+588,ts-delivery-service Session.merge delivery.entity.Delivery end,1
+589,ts-delivery-service Transaction.commit start,1
+590,ts-delivery-service Transaction.commit end,1
+591,ts-delivery-service SELECT ts.delivery start,1
+592,ts-delivery-service SELECT ts.delivery end,1
+593,ts-delivery-service INSERT ts.delivery start,1
+594,ts-delivery-service INSERT ts.delivery end,1
+595,ts-user-service /api/v1/userservice/users/id/{userId} start,1
+596,ts-user-service /api/v1/userservice/users/id/{userId} end,1
+597,ts-user-service UserController.getUserByUserId start,1
+598,ts-user-service UserController.getUserByUserId end,1
+599,ts-user-service UserRepository.findByUserId start,1
+600,ts-user-service UserRepository.findByUserId end,1
+601,ts-user-service SELECT User start,1
+602,ts-user-service SELECT User end,1
+603,ts-user-service SELECT ts.user start,1
+604,ts-user-service SELECT ts.user end,1
+605,ts-preserve-other-service /api/v1/preserveotherservice/preserveOther start,1
+606,ts-preserve-other-service /api/v1/preserveotherservice/preserveOther end,1
+607,ts-preserve-other-service PreserveOtherController.preserve start,1
+608,ts-preserve-other-service PreserveOtherController.preserve end,1
+609,ts-preserve-other-service HTTP GET start,4
+610,ts-preserve-other-service HTTP GET end,4
+611,ts-preserve-other-service HTTP POST start,4
+612,ts-preserve-other-service HTTP POST end,4
+613,ts-travel2-service /api/v1/travel2service/trip detail start,1
+614,ts-travel2-service /api/v1/travel2service/trip detail end,1
+615,ts-travel2-service Travel2Controller.getTripAllDetailInfo start,1
+616,ts-travel2-service Travel2Controller.getTripAllDetailInfo end,1
+617,ts-travel2-service TripRepository.findByTripId start,2
+618,ts-travel2-service TripRepository.findByTripId end,2
+619,ts-order-other-service /api/v1/orderOtherService/orderOther start,1
+620,ts-order-other-service /api/v1/orderOtherService/orderOther end,1
+621,ts-order-other-service OrderOtherController.createNewOrder start,1
+622,ts-order-other-service OrderOtherController.createNewOrder end,1
+623,ts-order-other-service INSERT ts.orders other start,1
+624,ts-order-other-service INSERT ts.orders other end,1
+625,ts-assurance-service /api/v1/<:SPANID:>/assurances/{typeIndex}/{orderId} start,1
+626,ts-assurance-service /api/v1/<:SPANID:>/assurances/{typeIndex}/{orderId} end,1
+627,ts-assurance-service AssuranceController.createNewAssurance start,1
+628,ts-assurance-service AssuranceController.createNewAssurance end,1
+629,ts-assurance-service AssuranceRepository.findByOrderId start,1
+630,ts-assurance-service AssuranceRepository.findByOrderId end,1
+631,ts-assurance-service AssuranceRepository.save start,1
+632,ts-assurance-service AssuranceRepository.save end,1
+633,ts-assurance-service SELECT Assurance start,1
+634,ts-assurance-service SELECT Assurance end,1
+635,ts-assurance-service Session.merge assurance.entity.Assurance start,1
+636,ts-assurance-service Session.merge assurance.entity.Assurance end,1
+637,ts-assurance-service Transaction.commit start,1
+638,ts-assurance-service Transaction.commit end,1
+639,ts-assurance-service SELECT ts.assurance start,2
+640,ts-assurance-service SELECT ts.assurance end,2
+641,ts-assurance-service INSERT ts.assurance start,1
+642,ts-assurance-service INSERT ts.assurance end,1
+643,ts-gateway-service HTTP GET start,1
+644,ts-gateway-service HTTP GET end,1
+645,ts-cancel-service /api/v1/cancelservice/cancel/{orderId}/{loginId} start,1
+646,ts-cancel-service /api/v1/cancelservice/cancel/{orderId}/{loginId} end,1
+647,ts-cancel-service <:SPANID:>.cancelTicket start,1
+648,ts-cancel-service <:SPANID:>.cancelTicket end,1
+649,ts-cancel-service HTTP GET start,3
+650,ts-cancel-service HTTP GET end,3
+651,ts-cancel-service HTTP PUT start,1
+652,ts-cancel-service HTTP PUT end,1
+653,ts-order-service /api/v1/orderservice/order/{orderId} start,1
+654,ts-order-service /api/v1/orderservice/order/{orderId} end,1
+655,ts-order-service OrderController.getOrderById start,1
+656,ts-order-service OrderController.getOrderById end,1
+657,ts-order-service OrderController.saveOrderInfo start,1
+658,ts-order-service OrderController.saveOrderInfo end,1
+659,ts-order-service OrderRepository.findById start,2
+660,ts-order-service OrderRepository.findById end,2
+661,ts-order-service Session.find order.entity.Order start,2
+662,ts-order-service Session.find order.entity.Order end,2
+663,ts-order-service UPDATE ts.orders start,1
+664,ts-order-service UPDATE ts.orders end,1
+665,ts-inside-payment-service /api/v1/inside pay service/inside payment/drawback/{userId}/{money} start,1
+666,ts-inside-payment-service /api/v1/inside pay service/inside payment/drawback/{userId}/{money} end,1
+667,ts-inside-payment-service InsidePaymentController.drawBack start,1
+668,ts-inside-payment-service InsidePaymentController.drawBack end,1
+669,ts-inside-payment-service AddMoneyRepository.save start,1
+670,ts-inside-payment-service AddMoneyRepository.save end,1
+671,ts-inside-payment-service Session.persist inside payment.entity.Money start,1
+672,ts-inside-payment-service Session.persist inside payment.entity.Money end,1
+673,ts-inside-payment-service INSERT ts.inside money start,1
+674,ts-inside-payment-service INSERT ts.inside money end,1
