@@ -37,3 +37,11 @@ This is the code and data for paper "Dual-view Microservice Anomaly Detection vi
 │       └── SavedDataset.py
 └── tree.txt
 ```
+
+
+## Training Procedure
+1. Unzip the data.zip file
+2. Run the run.bash
+
+
+
