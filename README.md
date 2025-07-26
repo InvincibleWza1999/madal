@@ -21,7 +21,7 @@ This is the code and data for paper "Dual-view Microservice Anomaly Detection vi
 │       └── SavedDataset.py
 ├── nezha
 │   ├── data.zip
-│   ├── hipster_log_template.csv
+│   ├── log_template.csv
 │   ├── network
 │   │   ├── cross_modal.py
 │   │   ├── mymodel.py
@@ -32,7 +32,6 @@ This is the code and data for paper "Dual-view Microservice Anomaly Detection vi
 │   └── utils
 │       ├── log_embedding.py
 │       ├── loss.py
-│       ├── MyDataset.py
 │       ├── __pycache__
 │       └── SavedDataset.py
 └── tree.txt
