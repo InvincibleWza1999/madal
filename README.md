@@ -1,6 +1,7 @@
 This is the code and data for paper "Dual-view Microservice Anomaly Detection via Modality Adaptive Consistency Learning"
 
 .
+├── dir_tree.md
 ├── gaia
 │   ├── data.zip
 │   ├── log_template.csv
@@ -33,4 +34,3 @@ This is the code and data for paper "Dual-view Microservice Anomaly Detection vi
 │       ├── __pycache__
 │       └── SavedDataset.py
 └── tree.txt
-
